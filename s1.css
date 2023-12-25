@@ -83,3 +83,16 @@ p {
 .book {
   animation: fadeIn 1.5s ease-out;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .book {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .book {
+    width: 100%;
+  }
+}
